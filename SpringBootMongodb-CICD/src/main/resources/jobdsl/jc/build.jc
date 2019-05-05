@@ -1,0 +1,6 @@
+Build {
+    job {
+        subFolder = 'Build'
+        baseClassName = 'jobdsl.BuildJob'
+    }
+}
