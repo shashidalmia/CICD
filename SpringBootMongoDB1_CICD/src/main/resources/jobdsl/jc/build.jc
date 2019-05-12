@@ -1,0 +1,9 @@
+imports = ['jobdsl/globalConfig.cfg', 'jobdsl/cfg/projectConfig.cfg']
+
+Build {
+    imports = ['jobdsl/globalBuild.cfg']
+    gradle = {
+        userWrapper = false
+        task = "-Pveraion=${PROJECT_VERSION} -PpublishRepo=${PUBLISH_REPO} clean release"
+    }
+}

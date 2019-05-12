@@ -1,0 +1,5 @@
+imports = ['jobdsl/globalConfig.cfg', 'jobdsl/cfg/projectConfig.cfg']
+
+common {
+    baseClassName='jobdsl.DeployGCP'
+}
